@@ -1,0 +1,146 @@
+
+body{
+
+  background-color: #474E68;
+ 
+}
+
+
+a:link {
+  color: rgba(255, 255, 255, 0.682);
+  text-decoration: none;
+}
+a:visited {
+  color: rgba(255, 255, 255, 0.682);
+  text-decoration: none;
+}
+a:hover {
+  color: rgba(255, 255, 255, 0.778);
+  text-decoration: none;
+}
+a:active {
+  color: rgba(255, 255, 255, 0.682);
+  text-decoration: none;
+}
+/*Grid for login page*/
+.parent {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(10, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+ 
+}
+
+.div1 {
+  grid-area: 1 / 1 / 11 / 11;
+}
+.divnav{
+ grid-area: 1 / 1 / 1 / 11; 
+background-color: #404258;
+height: 90px;
+}
+.div2 {
+  grid-area: 1 / 1 / 2 / 2;
+  margin-top: 15%;
+  
+}
+
+.div3 {
+  grid-area: 1 / 2 / 2 / 3;
+  margin-top: 15%;
+}
+
+.div4 {
+  grid-area: 1 / 3 / 2 / 4;
+  margin-top: 15%;
+}
+
+.div5 {
+  grid-area: 1 / 4 / 2 / 5;
+  margin-top: 15%;
+}
+
+.div6 {
+  grid-area: 1 / 9 / 2 / 10;
+  margin-top: 15%;
+  margin-left: auto;
+}
+
+.div7 {
+  grid-area: 3 / 3 / 4 / 6;
+  
+}
+
+.div8 {
+  grid-area: 4 / 3 / 8 / 8;
+
+}
+
+.div9 {
+  grid-area: 11 / 1 / 11 / 11;
+  background-color: #6B728E;
+  height: 50px;
+  margin: 0px;
+ 
+}
+
+
+.logo{
+
+padding: 10px 10px 10px 10px;
+background-color: #f58d15;
+  border-radius: 25px;
+  }
+
+.home, .meny-Item1,.meny-Item2{
+  padding: 10px 10px 10px 10px;
+background-color: #313131;
+border-radius: 10px;
+}
+
+.return {
+  background-color: #cd1a1a;
+  padding: 10px 10px 10px 10px;
+  border-radius: 25px;
+  border: #ff0000;
+  color: #ffffff;
+
+}
+
+
+/*Detail on formatBox*/
+.container {
+  background-color: #50577A;
+  border-radius: 6px;
+
+}
+
+/*Input fields */
+input[type=text],
+input[type=password] {
+  width: 90%;
+  padding: 12px 20px;
+  margin: 8px 5%;
+  display: inline-block;
+  border: 1px solid #313131;
+  box-sizing: border-box;
+  border-radius: 6px;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 10%;
+  border: none;
+  cursor: pointer;
+  width: 80%;
+  border-radius: 10px;
+}
+
+/* Extra functionalities */
+button:hover {
+  opacity: 0.8;
+}
