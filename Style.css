@@ -9,7 +9,7 @@ header{
 body{
 
  color: #000000;
- background-color: #474E68;
+  background-image: linear-gradient(120deg, #a2bbed, #0d44dd);
  width: 1024px;
  margin: auto;
 }
